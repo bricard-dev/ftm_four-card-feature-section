@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen w-screen bg-veryLightGrey font-poppins leading-normal font-normal text-[0.9375rem] text-veryDarkBlue antialiased;
+}
