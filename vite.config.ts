@@ -4,5 +4,5 @@ import { defineConfig } from 'vite';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ftm_four-card-feature-section-master/',
+  base: '/ftm_four-card-feature-section/',
 });
