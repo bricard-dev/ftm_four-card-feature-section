@@ -25,6 +25,7 @@ export default function Card({
           'before:bg-cyan': topColor === 'cyan',
           'before:bg-red': topColor === 'red',
           'before:bg-blue': topColor === 'blue',
+          'before:bg-orange': topColor === 'orange',
         },
         className
       )}
