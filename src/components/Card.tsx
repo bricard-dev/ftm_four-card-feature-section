@@ -20,7 +20,12 @@ export default function Card({
   return (
     <div
       className={cn(
-        `xl:w-[350px] xl:h-[250px] p-7 relative flex flex-col rounded-lg shadow-card overflow-hidden before:w-full before:h-1 before:absolute before:top-0 before:left-0 before:bg-${topColor}`,
+        `xl:w-[350px] xl:h-[250px] p-7 relative flex flex-col rounded-lg shadow-card overflow-hidden before:w-full before:h-1 before:absolute before:top-0 before:left-0`,
+        {
+          'before:bg-cyan': topColor === 'cyan',
+          'before:bg-red': topColor === 'red',
+          'before:bg-blue': topColor === 'blue',
+        },
         className
       )}
     >
